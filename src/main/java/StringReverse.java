@@ -1,7 +1,7 @@
 
 public class StringReverse {
     /**
-     * Task: return the reverse of a string.
+     * Tasks: return the reverse of a string.
      * There are multiple good ways to solve this problem.
      *
      * You could do some math to grab characters from the end of the String using a typical for loop.
@@ -13,6 +13,6 @@ public class StringReverse {
      * @return the reverse of str.
      */
     public String reverse(String str){
-        return null;
+        return new StringBuilder(str).reverse().toString();
     }
 }
